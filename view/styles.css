@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body, html 
+{
+  height: 100%;
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a 
+{
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav  
+{
+  color: #f1f1f1;
+}
+
+.buttonColor, .buttonColor:hover
+{
+  background-color: darkcyan;
+  color: white;
+  font-weight: 500;
+  padding: 0.75rem 0.375rem;
+  border: none;
+}
+
+.atag
+{
+  background-color: darkcyan;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.375rem;
+}
+
+button
+{
+  background-color: darkcyan;
+  color: white;
+  font-weight: 500;
+  padding: 0;
+  border: none;
+}
+
+a
+{
+  color: #27747D;
+  font-weight: bolder;
+}
+
+form
+{
+  background-color: rgba(196, 196, 196, 0.841);
+  word-wrap: break-word;
+  font-size:large;
+  font-weight: 500;
+  border-radius: 3rem;
+  padding: 35px 35px 35px 35px;
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+.background 
+{
+  /* background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,88,121,1) 54%, rgba(0,202,255,1) 100%);  */
+  background-image: url(background.jpg);
+  height: 100%;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main 
+{
+  background-color: rgba(196, 196, 196, 0.841);
+  word-wrap: break-word;
+  font-size:larger;
+  font-weight: 500;
+  border-radius: 3rem;
+  padding: 35px 35px 35px 35px;
+  max-width: 800px;
+  margin: 0 auto;
+}
